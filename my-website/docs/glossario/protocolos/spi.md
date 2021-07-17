@@ -36,7 +36,7 @@ Trabalha em regime de comunicação full-duplex, toda troca de dados acontece se
 
 ![img](/img/docs/glossario/protocolos/spi/esquema_padrão.png)
 
-Nesta imagem podemos perceber o esquema padrão de igação da comunicação SPI. Os escravos (quadros verde, azul e roxo à direita) possuem os mesmos pinos SCLK, MOSI e MISO em comum, mas necessitam de um pino para o Slave Select (SS) para cada escravo. 
+Nesta imagem podemos perceber o esquema padrão de Ligação da comunicação SPI. Os escravos (quadros verde, azul e roxo à direita) possuem os mesmos pinos SCLK, MOSI e MISO em comum, mas necessitam de um pino para o Slave Select (SS) para cada escravo. 
 
 **OBS:** O pino SS (Slave Select), cuja função é selecionar um escravo, pode ser ligado a qualquer pino digital do Arduino(que faz o papel de SPI Master).
 
